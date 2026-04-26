@@ -1,0 +1,1 @@
+*.ckpt # Weights should be downloaded and not committed to git
