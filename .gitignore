@@ -1,1 +1,18 @@
-*.ckpt # Weights should be downloaded and not committed to git
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Keep your local setup local) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment Variables (Security) ---
+.env
+
+# --- Project Specific (Weights/Large Data) ---
+*.ckpt
+*.h5
+*.weights
